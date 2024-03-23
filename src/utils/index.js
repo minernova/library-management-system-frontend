@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const customFetch = axios.create({
-  baseURL: "https://courageous-goat-houndstooth.cyclic.app/",
+  baseURL: "https://courageous-goat-houndstooth.cyclic.app",
 });
 
 export const getIssueDate = (iso) => {
